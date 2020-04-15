@@ -15,6 +15,11 @@
         android:hint="Saisissez une message"
         android:inputType="textPersonName" />
 
+    <Spinner
+        android:id="@+id/sprLangues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btnMessageParle"
         android:layout_width="match_parent"
